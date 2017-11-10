@@ -6,4 +6,4 @@ class HelloTest(unittest.TestCase):
         pass
 
     def test_hello(self):
-        self.assertEqual("hello", "hello", FAILURE)
+        self.assertEqual("hello", "hellos", FAILURE)
