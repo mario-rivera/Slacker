@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      # Dependencies
+      - pip install unittest2
+  build:
+    commands:
+      # Build
+      - python -m unittest discover tests
